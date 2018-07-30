@@ -11,5 +11,5 @@ _All maven commands start with "mvn"._
 ```
 To run the tests again just run ```mvn test```
 
- To run the program just run this command:
+ To run the program on Windows just run this command:
 ```java -cp  target/LongestWord-1.0-SNAPSHOT.jar com.akurtz.App [sentence that you want evaluated]```
