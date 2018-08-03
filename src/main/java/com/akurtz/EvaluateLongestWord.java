@@ -4,22 +4,22 @@ package com.akurtz;
  * Created by avck25 on 7/15/2018.
  */
 @SuppressWarnings("SpellCheckingInspection")
-public class EvaluateLongestWord {
+ class EvaluateLongestWord {
 
     private String longestWord;
     private int length;
     private int numberOfWords;
     private String errorMessage;
 
-    public EvaluateLongestWord() {
+     EvaluateLongestWord() {
     }
 
     //adding constructor where you can pass in the sentence and it calls findLongestWord
-    public EvaluateLongestWord(String sentence) {
+     EvaluateLongestWord(String sentence) {
         findLongestWord(sentence);
     }
 
-    public void findLongestWord(String sentence) {
+     void findLongestWord(String sentence) {
 
         //Handling null or empty string being passed in setting error message
         if (sentence == null || sentence.trim().isEmpty()) {
@@ -67,23 +67,23 @@ public class EvaluateLongestWord {
 
 
     //getters  for private variables
-    public String getLongestWord() {
+     String getLongestWord() {
         return longestWord;
     }
 
 
-    public int getNumberOfWords() {
+     int getNumberOfWords() {
         return numberOfWords;
     }
 
 
-    public int getLength() {
+     int getLength() {
 
         return length;
     }
 
 
-    public String getErrorMessage() {
+     String getErrorMessage() {
         return errorMessage;
     }
 
