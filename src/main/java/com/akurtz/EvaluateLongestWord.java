@@ -49,7 +49,7 @@ public class EvaluateLongestWord {
 
         for (String word : words) {
 
-            if (tempLength == 0 || word.length() > tempLength) {
+            if (word.length() > tempLength) {
                 tempLength = word.length();
                 tempLongestWord = word;
                 tempNumberOfWords = 1;
